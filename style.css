@@ -1,6 +1,7 @@
 :root {
     color-scheme: light dark;
 }
+
 body{
     display: grid;
     place-content: center;
@@ -36,4 +37,10 @@ section{
 .simply-word{
     font-weight: 300;
     font-size: x-large;
+}
+@media screen and (max-width:400px){
+    body {
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size:80%; // achicamos la fuente en pantallas pequeñas
+    }
 }
