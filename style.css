@@ -5,6 +5,15 @@ body{
     display: grid;
     place-content: center;
 }
+img{
+    margin: 0 auto;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
 #timer{
     display: flex;
     justify-content: center;

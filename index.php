@@ -30,21 +30,6 @@ curl_close($ch);
     <link rel="stylesheet" href="style.css">
     <script src="simplyCountdown.min.js" defer></script>
     <script src="countdown.js" defer></script>
-    <style>
-        body{
-            display: grid;
-            place-content: center;
-        }
-        img{
-            margin: 0 auto;
-        }
-        section{
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
     <header style="text-align: center">
@@ -65,13 +50,7 @@ curl_close($ch);
             <h4><?=$data["overview"];?></h4>
             <h5>La siguiente es: <?= $data["following_production"]["title"];?></h5>
         </section>
-
     </main>
-
-
-
-
-
 </body>
 </html>
 
