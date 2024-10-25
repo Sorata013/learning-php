@@ -32,12 +32,10 @@ curl_close($ch);
     <script src="countdown.js" defer></script>
 </head>
 <body>
-    <header style="text-align: center">
-        <h1>¿CUÁNDO LLEGA LA PRÓXIMA PELÍCULA DE MARVEL?</h1>
-    </header>
     <main>
         <section>
             <!--<pre><?php var_dump($data);?></pre>-->
+            <h1>¿CUÁNDO LLEGA LA PRÓXIMA PELÍCULA DE MARVEL?</h1>
             <h2>Quedan: </h2>
             <div id="timer"></div>
             <h2>para:</h2>
