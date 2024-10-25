@@ -9,7 +9,7 @@ simplyCountdown('#timer', {
         days: { singular: 'día', plural: 'días' },
         hours: { singular: 'hora', plural: 'horas' },
         minutes: { singular: 'minuto', plural: 'minutos' },
-        seconds: { singular: 'segundo', plural: 'segundos' }
+        seconds: { singular: 'seg', plural: 'seg' }
     },
     plural: true, //use plurals
     inline: false, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds
