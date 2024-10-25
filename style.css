@@ -1,0 +1,30 @@
+:root {
+    color-scheme: light dark;
+}
+body{
+    display: grid;
+    place-content: center;
+}
+#timer{
+    display: flex;
+    justify-content: center;
+}
+.simply-section{
+    background-color: lightslategrey;
+    width: 110px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.simply-amount{
+    display: block;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.simply-word{
+    font-weight: 300;
+    font-size: x-large;
+}

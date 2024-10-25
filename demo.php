@@ -27,6 +27,9 @@ curl_close($ch);
     <meta name="description" content="La próxima película de Marvel"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="simplyCountdown.min.js" defer></script>
+    <script src="countdown.js" defer></script>
     <style>
         body{
             display: grid;
@@ -50,7 +53,9 @@ curl_close($ch);
     <main>
         <section>
             <!--<pre><?php var_dump($data);?></pre>-->
-            <h2>Quedan <?=$data["days_until"] ?> días para:</h2>
+            <h2>Quedan: </h2>
+            <div id="timer"></div>
+            <h2>para:</h2>
             <img src="<?=$data["poster_url"]; ?>"
                  width="300" alt="Poster de <?=$data["title"]; ?>"
                  style="border-radius: 16px"
