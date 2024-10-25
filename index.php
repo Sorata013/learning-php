@@ -35,7 +35,7 @@ curl_close($ch);
     <main>
         <section>
             <!--<pre><?php var_dump($data);?></pre>-->
-            <h1>¿CUÁNDO LLEGA LA PRÓXIMA PELÍCULA DE MARVEL?</h1>
+            <h2>¿CUÁNDO LLEGA LA PRÓXIMA PELÍCULA DE MARVEL?</h2>
             <h2>Quedan: </h2>
             <div id="timer"></div>
             <h2>para:</h2>
